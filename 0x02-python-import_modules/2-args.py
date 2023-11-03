@@ -2,7 +2,7 @@
 if __name__ == "__main__":
     import sys
     sum1 = len(sys.argv) -1
-    if sum1 < 1:
+    if sum1 == 0:
         print("0 arguments.")
     elif sum1 == 1:
         print("1 arguments.")
